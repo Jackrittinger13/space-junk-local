@@ -1,6 +1,5 @@
 let game;
 let lastFrameTime = 0;
-
 function setup() {
   createCanvas(800, 600);
   angleMode(RADIANS);
