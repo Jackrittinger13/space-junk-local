@@ -2,6 +2,7 @@ class Junk {
   constructor(x, y, dx, dy) {
   this.physics = new Physics(x, y, dx, dy);
   this.beamTime = 0;
+  this.dropoffTime = 0;
 }
 drawJunk() {
   push();
