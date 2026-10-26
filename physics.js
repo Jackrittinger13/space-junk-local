@@ -17,8 +17,7 @@ move(delta) {
   this.x = 0;
 }
  if (this.y < 0) {
-  this.y = height;
-}
+  this.y = height;}
  if (this.y > height) {
   this.y = 0;
  }
